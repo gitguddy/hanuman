@@ -1,0 +1,76 @@
+---
+layout: post
+title: Informationen
+date: 2018-01-11
+author: lel
+---	 	 
+<p>Bankverbindung:	
+VR - Bank Wasserburg
+IBAN DE 18 7116 0000 0003 4082 13
+BIC GENODEF1VRR
+
+Verwendungszweck: 
+WL2018 und bitte Name und Geburtsdatum angeben!
+
+Anmeldeschluss: 25. April 2018
+Nachmeldungen vor Ort möglich
+
+Ihr Startgeld ist zugleich eine Spende, 
+die zu 100 % an das Mehrgenerationenhaus geht.
+
+Zwergerllauf (Kinder bis 6 Jahre) spenden 1,- €
+
+jedes Zwergerl erhält eine Medaille und eine Überraschung von Spielwaren Fuchs
+
+Walker und Läufer spenden 10,-€
+
+enthalten sind:
+
+eine Eintrittskarte für das Badria, 
+1,-€ WFV Taler des Wirtschaftsförderungsverbands Wasserburg für das Wasserburger Frühlingsfest und 
+ein Joghurt-Drink der Privatmolkerei Bauer 
+
+Nachmeldegebühr 2.- € 
+für Anmeldungen vor Ort / nicht bezahlte Online-Anmeldungen.
+ 	 	 	 
+ 	 	Wenn sich viele bewegen, kommt etwas in Bewegung!
+ 	 	 
+ 	 	9. Wasserburger Lauf
+
+Mitlaufen können alle!
+Egal ob jung oder alt,
+Läufer, Walker, oder Geher 
+Alle sind herzlich willkommen!
+
+Wir als Organisationsteam des Wasserburger Benefizlaufes 
+wollen uns für die Entwicklung des Mehrgenerationenhauses 
+in der Burgau in Wasserburg am Inn einsetzen.
+
+Der Wasserburger Lauf findet einmal jährlich statt.
+
+Neben dem Lauf am 29. April 2018 findet wieder der schulinterne Lauf der Realschule Wasserburg statt.
+Durch den Erlös der Wasserburger Läufe wird ein 
+wesentlicher Beitrag zur Weiterführung des Mehrgenerationenhauses geleistet.
+Dafür benötigen wir Ihre Spende. Herzlichen Dank!
+
+Rahmenprogramm:
+- Live-Musik 
+- Kinderschminken, Kinder-Programm
+- Tombola mit tollen Gewinnen, z.B. Fahrt im Heißluftballon
+- zahlreiche Verpflegungs- und Infostände
+
+ 
+ 	 	 	 
+ 	
+Der Erlös des Benefizlaufes kommt ausschließlich den Kindern, Familien 
+und Senioren im Mehrgenerationenhaus in Wasserburg am Inn zugute.
+
+Jede Hilfe zählt, auch Nichtläufer können spenden.
+
+Schirmherr: 
+Bürgermeister Michael Kölbl
+
+ 	 	 	 
+ 	
+Lauf Route - Die verschiedenen Laufstrecken
+</p>

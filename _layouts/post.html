@@ -129,25 +129,6 @@ layout: default
     {% endif %}
     <!-- End Related article -->
 <hr>
-
-<div class="author-section mb4">
-    {% if site.data.author["author"]["assets"] %}
-        <amp-img width="100" height="100" class="author-thumb-post" layout="responsive" src="{{ site.baseurl }}{{site.data.author["author"]["assets"]}}" alt="Author image"/></amp-img>
-    {% endif %}
-    <a href=""><h4 class="author-name">{{site.data.author["author"]["name"]}}</h4></a>
-    <p class="mb4 px3">{{site.data.author["author"]["bio"]}}</p>
-</div>
-
-<!-- Start Socialbox -->
-<div class="ampstart-social-box mb4">
-  <amp-social-share type="twitter" aria-label="Share this on Twitter"></amp-social-share>
-  <amp-social-share type="facebook" aria-label="Share this on Facebook" data-param-app_id="145393166088568"></amp-social-share>
-  <amp-social-share type="gplus" aria-label="Share this on Google Plus"></amp-social-share>
-  <amp-social-share type="email" aria-label="Share this with E-mail"></amp-social-share>
-</div>
-<!-- End Socialbox -->
-
-
   {% include footer.html %}
 
 </main>
