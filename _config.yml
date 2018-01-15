@@ -3,8 +3,13 @@ title: Wasserburger-Lauf
 description: Der Spendenlauf für das Mehrgenerationenhaus.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/newlogo.png
+<<<<<<< HEAD
 favicon: assets/images/running.png
 baseurl: "/wasserburgerlauf/" # the subpath of your site, e.g. /blog/ or / for root
+=======
+favicon: assets/images/favicon.png
+baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+>>>>>>> 368146674d49a802216e87ecfe91ae8f51da8261
 url: "https://gitguddy.github.io" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
