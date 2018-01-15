@@ -2,7 +2,7 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
-$theme-color: #adc9f7;
+$theme-color:      #adc9f7;
 
 .icon {
 
@@ -55,19 +55,11 @@ body {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
 }
-#cleft{
-  float:left;
-
-}
-
-#cright{
-  float:right;
-
-}
 
 .containR{
-  background: #ff6f00;
-
+  background: $theme-color;
+  margin-top: auto;
+  height: 100%;
 }
 
 /* Full-width input fields */
