@@ -1,8 +1,17 @@
 - title: Home
-  url: 
+  url:
 
-- title: About
+- title: Impressum
   url: about
 
 - title: Informationen
   url: info
+
+- title: Kontakt
+  url: contact
+
+- title: Anfahrt
+  url: Anfahrt
+
+- title: Anmelden
+  url: signin
