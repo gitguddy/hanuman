@@ -6,3 +6,12 @@
 
 - title: Informationen
   url: info
+
+- title: Kontakt
+  url: contact
+
+- title: Anfahrt
+  url: Anfahrt
+
+- title: Anmelden
+  url: signin
