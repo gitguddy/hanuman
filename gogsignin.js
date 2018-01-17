@@ -11,10 +11,6 @@ function googlsignin(){
     // The signed-in user info.
     console.console.log(result.user);
     user = result.user;
-    // hide login if usetr is already logged in
-    document.getElementById('goglog').style.display = "none";
-    // display greeting
-    document.getElementById('signed').style.display = "block";
     // fetch user name for greeting
     $("#greeting1").html("Hello, "+ user.displayName);
     console.log(user.displayName);
