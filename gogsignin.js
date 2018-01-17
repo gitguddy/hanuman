@@ -1,11 +1,23 @@
 var provider = new firebase.auth.GoogleAuthProvider();
+var user;
+
+firebase.auth().onAuthStateChanged(function(user)){
+  if (user) {
+    document.getElementById('goglog').style.display = "none";
+    document.getElementById('sigend').style.display = "block";
+    $("#greeting1").html("Hello, "+ user.displayName);
+  }else{
+    document.getElementById('goglog').style.display = "block";
+    document.getElementById('signed').style.display = "none";
+  }
+}
 
 function googlsignin(){
   firebase.auth().signInWithPopup(provider).then(function(result) {
     // This gives you a Google Access Token. You can use it to access the Google API.
     var token = result.credential.accessToken;
     // The signed-in user info.
-    var user = result.user;
+    user = result.user;
     console.log(user.displayName);
   }).catch(function(error) {
     // Handle Errors here.
@@ -22,7 +34,8 @@ function googlsignin(){
 function googlsignout(){
   firebase.auth().signOut().then(function() {
   // Sign-out successful.
-}).catch(function(error) {
+  location.reload();
+  }).catch(function(error) {
   // An error happened.
-});
+  });
 }
