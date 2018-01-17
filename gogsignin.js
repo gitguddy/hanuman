@@ -1,22 +1,7 @@
 var provider = new firebase.auth.GoogleAuthProvider();
 var user;
 
-// check if user is logged in
-firebase.auth().onAuthStateChanged(function(user)){
-  if (user) {
-    // hide login if usetr is already logged in
-    document.getElementById('goglog').style.display = "none";
-    // display greeting
-    document.getElementById('sigend').style.display = "block";
-    // fetch user name for greeting
-    $("#greeting1").html("Hello, "+ user.displayName);
-  }else{
-    // display login if user is not logged in
-    document.getElementById('goglog').style.display = "block";
-    // hide greeting
-    document.getElementById('signed').style.display = "none";
-  }
-}
+
 
 // sign in wi9th google
 function googlsignin(){
@@ -25,6 +10,12 @@ function googlsignin(){
     var token = result.credential.accessToken;
     // The signed-in user info.
     user = result.user;
+    // hide login if usetr is already logged in
+    document.getElementById('goglog').style.display = "none";
+    // display greeting
+    document.getElementById('sigend').style.display = "block";
+    // fetch user name for greeting
+    $("#greeting1").html("Hello, "+ user.displayName);
     console.log(user.displayName);
   }).catch(function(error) {
     // Handle Errors here.
@@ -42,7 +33,7 @@ function googlsignin(){
 function googlsignout(){
   firebase.auth().signOut().then(function() {
   // Sign-out successful.
-  
+
   // reload site
   location.reload();
   }).catch(function(error) {
