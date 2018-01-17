@@ -3,30 +3,23 @@ layout: page
 title: About
 permalink: /about/
 ---
+<div id="imp-one">
+  Diese Website ist ein kostenfreier Informationsservice des Deutschen Kinderschutzbundes, Kreisverband Rosenheim e.V.
+  <br>
+  Verantwortlich i.S.d. TDG:
+  Marianne Guggenbichler (Geschäftsführerin)
+</div>
 
-<amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/sports"></amp-img>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac augue libero.
-Fusce ac tempor dolor. Ut est dui, gravida a consequat aliquet, fermentum
-sodales risus. Suspendisse eu arcu id mi ornare facilisis non id nisl. Maecenas
-nec congue arcu, non semper neque. Proin mollis nisl diam, eu ultrices diam
-facilisis et. Integer fringilla lorem quis semper venenatis.
-
-Aliquam vestibulum purus enim. Sed rhoncus interdum erat id consequat. Nulla
-cursus venenatis massa, quis convallis lacus condimentum vel. Etiam mollis,
-orci ac pharetra commodo, diam lectus hendrerit eros, ac elementum magna augue
-sed tellus. Maecenas molestie, nisi ut sodales scelerisque, purus neque
-imperdiet dui, mollis elementum sem augue vel ipsum. Nulla lacinia arcu at quam
-lobortis, vitae interdum tellus fermentum. Cum sociis natoque penatibus et
-magnis dis parturient montes, nascetur ridiculus mus. Fusce sodales semper erat,
-eu fringilla ligula vulputate id. Maecenas quis libero pellentesque lacus
-egestas vehicula sit amet et neque. Nulla nec facilisis sem. Pellentesque rutrum
-elementum molestie. Quisque eget dui ac quam placerat dictum. Suspendisse quis
-ante placerat, efficitur enim ut, commodo tortor. Etiam consequat, eros quis
-consequat congue, augue mauris molestie libero, sed iaculis lectus enim eu magna.
-
-Etiam sapien dolor, mattis vel feugiat nec, egestas eget risus. Lorem ipsum
-dolor sit amet, consectetur adipiscing elit. Aenean aliquam massa a est porta
- vehicula. Cras eu gravida massa. Integer non sem ac mi ultrices posuere a
- pretium tortor. Mauris vitae varius sem. Praesent faucibus nec felis et dictum.
- Vestibulum lorem velit, laoreet nec vestibulum in, varius nec enim.
+<div>
+<b>Kontakt:</b>
+<ul id="imp-contact">
+  <li>Anja Wölk</li>
+  <li><a id="ksbr" href="https://www.kinderschutzbund-rosenheim.de/">Deutscher Kinderschutzbund Kreisverband Rosenheim e.V.</a></li>
+  <li>G e s c h ä f t s s t e l l e</li>
+  <li>Färberstr. 19</li>
+  <li>83022 Rosenheim</li>
+  <li>Tel. 0 80 31 - 1 29 29</li>
+  <li>Fax 0 80 31 - 1 67 56</li>
+  <li>e-Mail: <a href="mailto:a.woelk@kinderschutzbund-rosenheim.de">a.woelk@kinderschutzbund-rosenheim.de</a></li>
+</ul>
+</div>
