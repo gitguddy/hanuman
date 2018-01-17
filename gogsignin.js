@@ -13,7 +13,7 @@ function googlsignin(){
     // hide login if usetr is already logged in
     document.getElementById('goglog').style.display = "none";
     // display greeting
-    document.getElementById('sigend').style.display = "block";
+    document.getElementById('signed').style.display = "block";
     // fetch user name for greeting
     $("#greeting1").html("Hello, "+ user.displayName);
     console.log(user.displayName);
