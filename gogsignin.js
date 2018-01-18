@@ -9,16 +9,15 @@ myBtn1.addEventListener('click',function(){
     // This gives you a Google Access Token. You can use it to access the Google API.
     var token = result.credential.accessToken;
     // The signed-in user info.
-    console.console.log(result.user);
+    console.log(result.user);
     user = result.user;
     // fetch user name for greeting
-    $("#greeting1").html("Hello, "+ user.displayName);
     console.log(user.displayName);
   }).catch(function(error) {
     // Handle Errors here.
     var errorCode = error.code;
     var errorMessage = error.message;
-    console.log(errorMessage);
+    alert(errorMessage);
     // The email of the user's account used.
     var email = error.email;
     // The firebase.auth.AuthCredential type that was used.
