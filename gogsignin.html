@@ -4,9 +4,9 @@ title: Google Sign In
 ---
 <meta name="google-signin-client_id" content="57921290350-390hha618lji2u3a442l489odik7lv1t.apps.googleusercontent.com">
 
-<div id="goglog" class="main_div">
-  <div class="g-signin2" data-onsuccess="onSignIn"><button>login</button></div>
-  <button id="googlebutton" class="cancelbtn" onclick="googlsignout()">Logout</button>
+<div class="main_div">
+  <div id="goglog" class="g-signin2" data-onsuccess="onSignIn"><button>login</button></div>
+  <div id="googlebutton" class="cancelbtn" onclick="googlsignout()"> <button>Logout</button></div>
 </div>
 
 <div id="signed" >
@@ -30,5 +30,5 @@ title: Google Sign In
   };
   firebase.initializeApp(config);
 </script>
-<script src="gogsignin.js"></script>
+<script src="googlsignin.js"></script>
 <script src="https://apis.google.com/js/platform.js" async defer></script>

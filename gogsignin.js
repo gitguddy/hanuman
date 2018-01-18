@@ -1,10 +1,10 @@
 var provider = new firebase.auth.GoogleAuthProvider();
 var user;
-
+var myBtn1=document.getElementById('goglog');
 
 
 // sign in wi9th google
-function googlsignin(){
+myBtn1.addEventListener('click',function(){
   firebase.auth().signInWithPopup(provider).then(function(result) {
     // This gives you a Google Access Token. You can use it to access the Google API.
     var token = result.credential.accessToken;
@@ -25,7 +25,7 @@ function googlsignin(){
     var credential = error.credential;
     // ...
   });
-}
+},false);
 
 // sign out
 function googlsignout(){
