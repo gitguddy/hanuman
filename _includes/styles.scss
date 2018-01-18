@@ -110,6 +110,12 @@ button:hover {
   width: 50%;
 }
 
+.container8{
+  padding: 15px;
+  display: block;
+  background: $theme-color;  
+}
+
 /* Add padding to container elements */
 .container7 {
     padding: 16px;
@@ -434,19 +440,11 @@ button:hover {
       padding: 0 0 30px;
       margin: 0;
     }
-    li {
-      padding: 0;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 23px;
-      line-height: 30px;
-      margin-left: 30px;
-      margin-bottom: 12px;
-      padding-top: 2px;
+    
       p {
         padding: 0 0 golden-ratio(1rem, 1);
       }
-    }
+
     ol li {
       list-style-type: decimal;
     }
@@ -803,4 +801,21 @@ body > figure > figcaption > header > h2 {
 
 .ampstart-read-text{
     background:$theme-color
+}
+
+#imp-one{
+  padding-bottom: 25px;
+}
+
+#imp-two{
+  padding-bottom: 25px;
+}
+
+#imp-three{
+padding-bottom: 25px;
+}
+
+#imp-contact{
+list-style-type: none;
+padding-top: 10px;
 }

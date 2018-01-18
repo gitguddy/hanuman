@@ -1,37 +1,52 @@
 ---
-layout: default
+layout: post
 title: Wasserburger-Lauf
 ---
+
+
 <main id="content" role="main" class="content">
 
   <div style="width:100%;">
-     <div class="containR"><form action="/action_page.php" style="border:1px solid #ccc">
-   <div class="container7">
-     <h1>Sign Up</h1>
-     <p>Please fill in this form to create an account.</p>
+     <div class="containR"><form style="border:1px solid #ccc">
+   <div class="container7" id="signin">
+     <h1>Login with Email</h1>
+     <p>Enter your Email and Password</p>
      <hr>
 
      <label><b>Email</b></label>
-     <input type="text" placeholder="Enter Email" name="email" required>
+     <input type="text" id="email_field" placeholder="Enter Email" name="email" required>
 
      <label><b>Password</b></label>
-     <input type="password" placeholder="Enter Password" name="psw" required>
-
-     <label><b>Repeat Password</b></label>
-     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+     <input type="password" id="pw_field" placeholder="Enter Password" name="psw" required>
 
      <label>
        <input type="checkbox" checked="checked" style="margin-bottom:15px"> Remember me
      </label>
 
-     <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
      <div class="clearfix">
-       <button type="button" class="cancelbtn">Cancel</button>
-       <button type="submit" class="signupbtn">Sign Up</button>
+       <button type="button" class="cancelbtn">Logout</button>
+       <button type="submit" class="signupbtn" onclick="login()">Login</button>
      </div>
+
+
    </div></div>
 
+
+   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+   <script>
+     // Initialize Firebase
+     var config = {
+       apiKey: "AIzaSyC3HDux3rz8SEEl4-n6nXrGJb4Bv6xCflM",
+       authDomain: "login-6b247.firebaseapp.com",
+       databaseURL: "https://login-6b247.firebaseio.com",
+       projectId: "login-6b247",
+       storageBucket: "login-6b247.appspot.com",
+       messagingSenderId: "57921290350"
+     };
+     firebase.initializeApp(config);
+   </script>
+  
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </main>
 {% include footer.html %}

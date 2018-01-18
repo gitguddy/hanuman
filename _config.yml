@@ -1,9 +1,9 @@
 # Site settings
 title: Wasserburger-Lauf
-description: Der Spendenlauf für das Mehrgenerationenhaus.
+description: Der Spendenlauf für das Mehrgenerationenhaus. 
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/newlogo.png
-favicon: assets/images/running.png
+favicon: android-icon-36x36.png
 baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
 url: "gitguddy.github.io" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage

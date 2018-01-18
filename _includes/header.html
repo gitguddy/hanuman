@@ -3,7 +3,7 @@
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
     </div>
     {% if site.logo %}
-    <amp-img src="{{site.baseurl}}{{site.logo}}" width="250" height="35" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img>
+    <amp-img src="{{site.baseurl}}{{site.logo}}" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img>
     {% endif %}
   </header>
 
@@ -15,17 +15,23 @@
   </div>
   <nav class="ampstart-sidebar-nav ampstart-nav">
     <ul class="list-reset m0 p0 ampstart-label">
-        {% for entry in site.data.navigation %}
-            {% if entry.url == current_page %}
-                {% assign current = ' class="current"' %}
-            {% else %}
-                {% assign current = null %}
-            {% endif %}
+
       <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
-          <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}" class="text-decoration-none">{{ entry.title }}</a></li>
+          <li class="ampstart-faq-item"><a href="index.html" class="text-decoration-none">Home</a></li>
       </li>
-      {% endfor %}
+      <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
+          <li class="ampstart-faq-item"><a href="signin.html" class="text-decoration-none">Anmeldung</a></li>
+      </li>
+      <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
+          <li class="ampstart-faq-item"><a href="gogsignin.html" class="text-decoration-none">Anmeldung mit Google</a></li>
+      </li>
+      <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
+          <li class="ampstart-faq-item"><a href="info.html" class="text-decoration-none">Informationen</a></li>
+      </li>
+      <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
+          <li class="ampstart-faq-item"><a href="anfahrt.html" class="text-decoration-none">Anfahrt</a></li>
+      </li>
+
     </ul>
   </nav>
 </amp-sidebar>
-<hr>
