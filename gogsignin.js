@@ -1,7 +1,7 @@
 var provider = new firebase.auth.GoogleAuthProvider();
 var user;
 var myBtn1=document.getElementById('goglog');
-
+var myBtn2=document.getElementById('goglogout');
 
 // sign in wi9th google
 myBtn1.addEventListener('click',function(){
@@ -13,6 +13,7 @@ myBtn1.addEventListener('click',function(){
     user = result.user;
     // fetch user name for greeting
     console.log(user.displayName);
+    document.getElementById('signed').style.display = "none";
   }).catch(function(error) {
     // Handle Errors here.
     var errorCode = error.code;
@@ -27,13 +28,13 @@ myBtn1.addEventListener('click',function(){
 },false);
 
 // sign out
-function googlsignout(){
+myBtn2.addEventListener('click',function(){
   firebase.auth().signOut().then(function() {
   // Sign-out successful.
 
   // reload site
-  location.reload();
+  
   }).catch(function(error) {
   // An error happened.
   });
-}
+},false);
