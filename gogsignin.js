@@ -31,10 +31,19 @@ myBtn1.addEventListener('click',function(){
 myBtn2.addEventListener('click',function(){
   firebase.auth().signOut().then(function() {
   // Sign-out successful.
-
+  console.log("success");
+  document.getElementById('signed').style.display = "block";
   // reload site
-  
+
   }).catch(function(error) {
-  // An error happened.
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    alert(errorMessage);
+    // The email of the user's account used.
+    var email = error.email;
+    // The firebase.auth.AuthCredential type that was used.
+    var credential = error.credential;
+    // ...
   });
 },false);
