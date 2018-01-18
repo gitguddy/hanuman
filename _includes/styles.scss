@@ -110,6 +110,12 @@ button:hover {
   width: 50%;
 }
 
+.container8{
+  padding: 15px;
+  display: block;
+  background: $theme-color;
+}
+
 /* Add padding to container elements */
 .container7 {
     padding: 16px;
@@ -797,6 +803,7 @@ body > figure > figcaption > header > h2 {
     background:$theme-color
 }
 
+<<<<<<< HEAD
 #imp-one{
   padding-bottom: 25px;
 }
@@ -809,6 +816,12 @@ body > figure > figcaption > header > h2 {
 padding-bottom: 25px;
 }
 
+=======
+#imp-one, #imp-two, #imp-three{
+  padding-bottom: 25px;
+}
+
+>>>>>>> 344e13e5f5c41904e3211594df9c736b503af7dd
 #imp-contact{
 list-style-type: none;
 padding-top: 10px;
