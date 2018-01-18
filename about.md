@@ -23,3 +23,17 @@ permalink: /about/
   <li>e-Mail: <a href="mailto:a.woelk@kinderschutzbund-rosenheim.de">a.woelk@kinderschutzbund-rosenheim.de</a></li>
 </ul>
 </div>
+
+<div id="imp-two">
+  Die Verwendung von Inhalten auf dieser Website (auch auszugsweise) nur mit schriftlicher Genehmigung des Kinderschutzbundes Rosenheim.
+</div>
+
+<div id="imp-three">
+  Das Landgericht Hamburg hat in seinem Urteil vom 12. Mai 1998 (Az.: 312 O 85/98) entschieden, dass die Verwendung von Links zu anderen Internetseiten dazu führen kann, dass der Verlinkende die Inhalte dieser Seiten gegebenenfalls mit zu verantworten hat, es sei denn, er schließt diese Verantwortung ausdrücklich aus.
+  <br>
+  Wir weisen darauf hin, dass wir keinerlei Einfluss auf Inhalt oder Gestaltung der verlinkten Seiten haben. Deshalb distanzieren wir uns hiermit ausdrücklich von den Inhalten aller Seiten, die auf unseren Seiten verlinkt sind.
+</div>
+
+<div id="imp-four">
+  Außerdem können unsere Internetseiten ohne unser Wissen von anderen Seiten verlinkt worden sein. Wir übernehmen keinerlei Verantwortung für die Inhalte und die Gestaltung dieser verlinkenden Internetseiten Dritter.
+</div>

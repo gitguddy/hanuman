@@ -113,7 +113,7 @@ button:hover {
 .container8{
   padding: 15px;
   display: block;
-  background: $theme-color;  
+  background: $theme-color;
 }
 
 /* Add padding to container elements */
@@ -440,7 +440,7 @@ button:hover {
       padding: 0 0 30px;
       margin: 0;
     }
-    
+
       p {
         padding: 0 0 golden-ratio(1rem, 1);
       }
@@ -803,16 +803,8 @@ body > figure > figcaption > header > h2 {
     background:$theme-color
 }
 
-#imp-one{
+#imp-one, #imp-two, #imp-three{
   padding-bottom: 25px;
-}
-
-#imp-two{
-  padding-bottom: 25px;
-}
-
-#imp-three{
-padding-bottom: 25px;
 }
 
 #imp-contact{
