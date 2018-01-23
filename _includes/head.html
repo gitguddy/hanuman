@@ -23,7 +23,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
-  
+
 
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
@@ -59,6 +59,8 @@
 
   <link rel="canonical" href="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove: '/' }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
   <script type="application/ld+json">
   {% include metadata.json %}
