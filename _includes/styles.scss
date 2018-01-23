@@ -1,5 +1,7 @@
 @import 'bourbon/bourbon';
 @import 'syntax-highlighting';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 $grey-color:       #828282;
 $theme-color:      #adc9f7;
@@ -394,7 +396,7 @@ button:hover {
       hyphens: auto;
     }
     a {
-      color: #333333;
+      color: #0000EE;
       text-decoration: underline;
     }
     amp-img, amp-youtube {
