@@ -86,6 +86,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
+
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -812,4 +813,59 @@ body > figure > figcaption > header > h2 {
 #imp-contact{
 list-style-type: none;
 padding-top: 10px;
+}
+
+
+
+#register{
+  display: inline-block;
+  min-width: 110px;
+  margin: 15px 5px;
+  padding: 10px 15px 12px;
+  font: 700 12px/1 "Open Sans", sans-serif;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 1px rgba(0, 0, 0, 0.1),
+  inset 0 -10px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.slide img{
+
+    width: 100%;
+    object-fit: contain;
+}
+
+.show:hover :not(.overlay) {
+
+	opacity: 0.5;
+
+}
+
+.show:hover .textslide1{
+
+	display: inline;
+
+}
+
+
+.textslide1{
+
+	color: black;
+	display: none;
+	font-size: 50px;
+	font-style: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	font-family: Times-new-Roman, sans-serif;
+}
+
+.show{
+
+background-color: #ba203f;
+
 }
