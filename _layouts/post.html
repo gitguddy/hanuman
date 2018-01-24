@@ -26,7 +26,7 @@ layout: default
     </figcaption>
   </figure>
 
-  <main id="content" role="main" class="">
+  
     <article class="photo-article">
       <div class="post-meta mb4 px3">
         <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
@@ -54,27 +54,8 @@ layout: default
 
   {% else %}
 
-    <main id="content" role="main" class="">
-      <article class="recipe-article">
-        <header>
-          {% if page.tags.size > 0 %}
-          <span class="ampstart-subtitle block px3 pt2 mb2">
-                        {% for tag in page.tags %}
-                            {% if forloop.index == page.tags.size %}
-                               {{ tag | upcase }}
-                            {% else %}
-                               {{ tag | upcase }},
-                            {% endif %}
-                        {% endfor %}
-          </span>
-          {% endif %}
-          <h1 class="mb1 px3">{{page.title}}</h1>
-
-          <address class="ampstart-byline clearfix mb4 px3 h5">
-            <time class="ampstart-byline-pubdate block bold my1" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | date:'%e %B %Y' }}</time>
-          </address>
-        </header>
-
+    
+    
   {% endif %}
 
     <div class="px3 mb4">
@@ -131,4 +112,4 @@ layout: default
 <hr>
   {% include footer.html %}
 
-</main>
+
