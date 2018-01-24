@@ -11,7 +11,7 @@ It is built using the open source [AMP Start framework](https://www.ampstart.com
 ![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
 
 
-## Features
+## Features.
 
 - Minimal
 - Responsive
