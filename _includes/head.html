@@ -50,12 +50,7 @@
   {% include metadata.json %}
   </script>
 
-  <style amp-custom>
-  {% capture include_to_scssify %}
-    {% include styles.scss %}
-  {% endcapture %}
-  {{ include_to_scssify | scssify | replace: "@charset "UTF-8";", "" }}
-  </style>
+ 
 
 
 
