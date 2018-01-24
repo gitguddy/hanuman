@@ -13,7 +13,9 @@ myBtn1.addEventListener('click',function(){
     user = result.user;
     // fetch user name for greeting
     console.log(user.displayName);
-    document.getElementById('signed').style.display = "none";
+    document.getElementById('signed').style.display = "block";
+    document.getElementById('goglogout').style.display = "block";
+    document.getElementById('goglog').style.display = "none";
   }).catch(function(error) {
     // Handle Errors here.
     var errorCode = error.code;
@@ -32,7 +34,9 @@ myBtn2.addEventListener('click',function(){
   firebase.auth().signOut().then(function() {
   // Sign-out successful.
   console.log("success");
-  document.getElementById('signed').style.display = "block";
+  document.getElementById('signed').style.display = "none";
+  document.getElementById('goglogout').style.display = "none";
+  document.getElementById('goglog').style.display = "block";
   // reload site
 
   }).catch(function(error) {

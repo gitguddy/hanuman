@@ -38,6 +38,7 @@ function submitForm(e){
 	var streckenlänge = radio2();
 	//save message
 	saveMessage(name, vorname, geburtsdatum, verein, strasse, post, ort, typ, streckenlänge);
+  alert('Anmeldung abgesendet');
 }
 //Function to get form values
 function getInputVal(id){
