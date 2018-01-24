@@ -43,7 +43,7 @@
 
   <link rel="canonical" href="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove: '/' }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <style amp-custom>
+  <style>
    {% capture include_to_scssify %}
      {% include styles.scss %}
    {% endcapture %}
